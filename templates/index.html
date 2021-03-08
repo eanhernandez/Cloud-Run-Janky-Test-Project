@@ -6,9 +6,9 @@
 <body>
 
 <h1>{{PageTitle}}</h1>
-<h1>from GCF WhatsYourFavoriteBand(): {{GCFMessage}}</h1>
-<h1>from query string: {{QueryStringMessage}}</h1>
-<h1>cookie: {{request.cookies.get('testcookie')  }}</h1>
+<h2>from GCF WhatsYourFavoriteBand(): {{GCFMessage}}</h2>
+<h2>from query string: {{QueryStringMessage}}</h2>
+<h2>cookie: {{request.cookies.get('testcookie')  }}</h2>
 <form action="/" method="get">
     <input name="x">
     <input type="submit" value="submit">
